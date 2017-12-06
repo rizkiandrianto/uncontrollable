@@ -23,7 +23,7 @@
     "copy": "cpy ./README.md ./lib",
     "tdd": "jest --watch",
     "lint": "eslint src test",
-    "build": "npm run test && npm run clean && babel src --out-dir lib && npm run copy",
+    "build": "npm run clean && babel src --out-dir lib && npm run copy",
     "release": "release"
   },
   "peerDependencies": {
